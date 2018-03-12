@@ -1,0 +1,18 @@
+<TranslateArrayRequest>
+  <AppId />
+  <From>%1</From>
+  <Options>
+    <Category xmlns="http://schemas.datacontract.org/2004/07/Microsoft.MT.Web.Service.V2" >general</Category>
+    <ContentType xmlns="http://schemas.datacontract.org/2004/07/Microsoft.MT.Web.Service.V2">text/plain</ContentType>
+    <ReservedFlags xmlns="http://schemas.datacontract.org/2004/07/Microsoft.MT.Web.Service.V2" />
+    <State xmlns="http://schemas.datacontract.org/2004/07/Microsoft.MT.Web.Service.V2" ></State>
+    <Uri xmlns="http://schemas.datacontract.org/2004/07/Microsoft.MT.Web.Service.V2" >all</Uri>
+    <User xmlns="http://schemas.datacontract.org/2004/07/Microsoft.MT.Web.Service.V2" >all</User>
+  </Options>
+  <Texts>
+____TEXT____
+    <string xmlns="http://schemas.microsoft.com/2003/10/Serialization/Arrays">%1</string>
+____TEXT____
+  </Texts>
+  <To>%2</To>
+</TranslateArrayRequest>

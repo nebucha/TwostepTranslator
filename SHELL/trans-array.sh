@@ -95,7 +95,6 @@ fi
 [ -z $from ] && from=@
 
 key1=$(head -1 $shelld/.key/key)
-key2=$(tail -1 $shelld/.key/key)
 url="https://api.microsofttranslator.com/V2/Http.svc/TranslateArray"
 
 echo $from $to   > $tmp-from-to
